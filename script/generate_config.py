@@ -20,9 +20,9 @@ fontStyleLinkBold: str = "fontStyleLinkBold"
 fontWeightPrefix: str = "fontWeightPrefix"
 fontDistributor: str = "fontDistributor"
 
-fontVersion: float = 3.01
+fontVersion: float = 3.02
 fontSansVersion: float = 2.004
-fontSerifVersion: float = 2.002
+fontSerifVersion: float = 2.003
 fontVersionString: str = "Version " + "{:.2f}".format(fontVersion) + "; Sans " + str(fontSansVersion) + "; Serif " + str(fontSerifVersion)
 
 typefaceFamilies: list = [fontSansFamily, fontSerifFamily]
